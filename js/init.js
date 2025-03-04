@@ -1,4 +1,4 @@
-import { day, month, year } from "./elements.js";
+import { day, month, year, output } from "./elements.js";
 import update from "./updater.js";
 
 function init() {
@@ -18,3 +18,4 @@ function init() {
 }
 
 // ???
+export { init };
